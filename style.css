@@ -1,0 +1,169 @@
+/*spots */
+
+body {
+    background-color: #fce4ec; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background-color: #fff; 
+    color:#555;
+    padding: 10px; 
+    text-align: center; 
+}
+
+header a {
+    text-decoration: none; 
+    margin: 0 10px; 
+    color: #333;  
+    font-weight: bold; 
+}
+
+h1 {
+    text-align: center; 
+    color: #333; 
+}
+
+table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+}
+
+table, th, td {
+    border: 1px solid #333; 
+    font-size: 16px;
+    width: 80%;
+
+th, td {
+    padding: 20px; 
+    text-align: left;
+    width: 80%;
+}
+
+table + p {
+    margin-top: 20px;
+}
+
+/* style img*/
+img {
+    display: block; / 
+}
+}
+
+/* index */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+
+header a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+
+ul li {
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+
+
+p {
+    text-align: left; 
+    font-style: italic;
+    color: #555;
+    margin-block-start: 10px;
+}
+
+form input[type="text"] {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 5px; 
+}
+
+
+form input[type="submit"] {
+    display: block; 
+    margin: 10px auto; 
+    padding: 10px 20px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+
+form {
+    text-align: left; 
+    width: 100%; 
+    max-width: 300px; 
+    margin-top: 20px; 
+    margin-left: 20px; 
+}
+
+
+.copyright-symbol {
+    font-size: 18px; 
+    color: #333; 
+    margin-right: 5px; 
+}
+
+
+.copyright-symbol + p {
+    text-align: center;
+}
+
+#bt {
+    text-align:center;
+}
+
+#skills {
+    text-align:center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.hobbies {
+    text-align:left;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+}

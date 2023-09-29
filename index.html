@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>welcome to my website!</title>
     <link rel="icon" type="image/png" href="assets/cat_icon.png"> <!--credit to icons8-->
 
@@ -13,7 +13,7 @@
 
 <!--add nav bar-->
 <header><a href="index.html">home</a> <a href="skills.html">skills</a> <a href="spots.html">spots</a> 
-    <a href="favorites.html">favorites</a> <a href="picdownload.html">download my pics here!</a></header>
+    <a href="favorites.html">favorites</a> <a href="https://www.google.com/">idk</a></header>
 <body>
 
 
@@ -29,11 +29,46 @@
 
 <!--add pics later (img src)-->
 <img src="assets/cat.jpeg" alt="orange cat looking at camera" width="240" height="300">
-<img src="assets/alby.jpeg" alt="alby under my sister's bed" width="250" height="300">
+<img src="assets/alby.jpeg" alt="alby under my sister's bed" width="230" height="300">
 <img src="assets/lirr.jpeg" alt="lirr at grand central-madison" width="230" height="300">
-<img src="assets/pi.jpeg" alt="pi characters in a circle" width="300" height="300">
+<img src="assets/tangled.jpeg" alt="rapunzel and pascal" width="300" height=""230">
 
+<!--audio file-->
+<p id="bt">bryson tiller finesse drake cover</p>
+<audio controls>
+    <source src="assets\bryson tiller - finesse [LYRICS].mp3" type="audio/mpeg">
+  </audio>
 
+  <!--form-->
+  <form id="hiForm">
+    <label for="message">Say Hi:</label><br>
+    <input type="text" id="message" name="hi" placeholder="say hi back" required><br><br>
     
+    <input type="submit" value="Submit">
+</form>
+
+<div id="response" style="display: none;"></div>
+
+<script>
+    document.getElementById('hiForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const messageInput = document.getElementById('message');
+        const responseDiv = document.getElementById('response');
+        const message = messageInput.value.trim().toLowerCase();
+        
+        if (message === 'hi') {
+            responseDiv.textContent = 'haii';
+        } else {
+            responseDiv.textContent = 'okay';
+        }
+
+        responseDiv.style.display = 'block';
+        messageInput.value = '';
+    });
+</script>
+
+<!--copyright symbol-->
+<p><span class="copyright-symbol">&copy;</span> hai</p>
+
 </body>
 </html>
